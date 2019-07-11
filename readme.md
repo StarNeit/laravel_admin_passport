@@ -83,3 +83,19 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 6. run `php artisan key:generate`
 7. run `php artisan passport:install`
 8. run `php artisan serve`
+
+##Introduction
+This project is for authentication with Passport.
+- Login Page
+    1. Please insert username and password.
+       (you can use `username/password : admin / 111` as Admin and `username/password : guest / 222` as Guest )
+    2. Click `Login` button.
+- Main page
+    1. This is made as simple example. So you can see very simple page.
+       The side bar is different for both user( Admin and Guest ).
+       If you logged in this page as Admin, you can see more details than Guest`s.
+    2. You can sign out from this page.
+       Please consider avatar Image on the right top.
+       When you click this avatar Image, You can see the `Sign out` button and Clicking once let you sign out.
+       After sign out, you can see the login page and try to sign in again.
+    3. And the other functions does not work well in this time.
