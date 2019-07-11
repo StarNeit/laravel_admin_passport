@@ -75,11 +75,11 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 2. php >= 7.*
 3. mysql server
 ## Run
-1. composer install
-2. npm install
+1. run `composer install`
+2. run `npm install`
 3. Create database named `laravel` into mysql and configure user information in config/database.php. 
-4. php artisan migrate
+4. run `php artisan migrate`
 5. Import data from test.sql to `laravel`database of mysql.
-6. php artisan key:generate
-7. php artisan passport:install
-8. php artisan serve
+6. run `php artisan key:generate`
+7. run `php artisan passport:install`
+8. run `php artisan serve`
