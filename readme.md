@@ -78,6 +78,7 @@ The Laravel framework is open-source software licensed under the [MIT license](h
 1. run `composer install`
 2. run `npm install`
 3. Create database named `laravel` into mysql and configure user information in config/database.php. 
+   As default( DB_HOST: 127.0.0.1, DB_PORT: 3306, DB_DATABASE: laravel, DB_USERNAME: root, DB_PASSWORD:'')
 4. run `php artisan migrate`
 5. Import data from test.sql to `laravel`database of mysql.
 6. run `php artisan key:generate`
